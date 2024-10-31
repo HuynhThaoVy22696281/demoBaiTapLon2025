@@ -1,0 +1,10 @@
+:root {
+    --main-color: #FFFFFF;
+    --black-color: #000;
+    --text-color: #1A1A1A;
+    --text-secondary-color: #5A5A5A;
+    --transition: all 0.4s ease;
+    --font-raleway: "Raleway", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --secondary-color: #F3F3F3;
+}

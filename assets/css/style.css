@@ -1,0 +1,138 @@
+body {
+    font-family: var(--font-raleway);
+    line-height: 1.7;
+    color: var(--text-color);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+[class*="title"] {
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+
+header #top-bar {
+    font-size: 14px;
+}
+
+.header__btn {
+    background-color: var(--black-color);
+    color: var(--secondary-color);
+    font-weight: 600;
+    outline: none;
+}
+
+.btn__underline {
+    font-size: 14px;
+}
+
+.header__btn:hover {
+    opacity: 0.6;
+    transition: var(--transition);
+}
+
+main {
+    background-color: var(--secondary-color);
+}
+
+h2.title {
+    font-size: 40px;
+    margin-top: 12px;
+    margin-bottom: 36px;
+    font-weight: 700;
+}
+
+p {
+    color: var(--text-secondary-color);
+    font-size: 15px;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+.main__banner {
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.font-poppins {
+    font-family: var(--font-poppins);
+    letter-spacing: 2px;
+}
+
+.main__slider-heading {
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.main__carousel .card {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.main__product,
+.main__project {
+    margin-top: 60px;
+}
+
+.footer__copyright {
+    margin-top: 120px;
+}
+
+.main__about-content {
+    margin-left: 120px;
+}
+
+.main__about-title {
+    margin-bottom: 86px;
+}
+
+.main__about-result-item h2 {
+    font-size: 40px;
+    font-family: var(--font-poppins);
+}
+
+.main__testimonial-desc,
+.client__comment {
+    margin-right: auto;
+    font-size: 15px;
+    color: var(--text-secondary-color);
+}
+
+.product__card-btn-details,
+.product__card-btn-cart {
+    box-shadow: 0px 0px 10px #212121;
+}
+
+.product__card-btn-details {
+    border: 1.5px solid grey;
+    color: #212121;
+    border-radius: 0;
+}
+
+.product__card-btn-cart {
+    background-color: #212121;
+    color: white;
+    margin-top: 10px;
+    font-weight: 900;
+    border-radius: 0;
+}
+
+@media screen and (max-width: 996px) {
+    #formSearch{
+        display: none !important;
+    }
+}
